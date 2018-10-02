@@ -1,0 +1,103 @@
+.loader-background {
+    text-align:center;
+    padding:40px 0 0 0;
+    vertical-align:middle;
+    min-height:120px;
+    display:none;
+    position:absolute;
+    z-index:1;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,.3);
+}
+.loader-background img {
+    width:64px;
+}
+.loader-background h2 {
+    width:100%;
+    display:block;
+    overflow:hidden;
+    padding:0 0 0 0;
+    color:#fff;
+    margin-top:0px;
+}
+.loader_show {
+    display:block;
+}
+.reports {
+    background-color: #fff;
+    box-shadow: 0px 0px 5px #888888;
+    padding: 50px;
+    margin: 0 10px 10px 10px;
+    font: 12px arial, sans-serif;
+    overflow: hidden;
+    width: 98%;
+}
+.expanded-group.group{
+	background: #fcf8e3 url("../img/minus.png") no-repeat left !important;
+	padding-left: 15px !important;
+    color:#000;
+    text-align:center;
+    cursor:pointer;
+    font-style: italic;
+}
+
+.collapsed-group.group{
+	background:  #fcf8e3 url("../img/plus.png") no-repeat left !important;
+	padding-left: 15px !important;
+    color:#000;
+    text-align:center;
+    cursor:pointer;
+    font-style: italic;
+}
+.expanded-group.subgroup{
+	background: #efe1b3 url("../img/minus.png") no-repeat left !important;
+	padding-left: 15px !important;
+    cursor:pointer;
+}
+
+.collapsed-group.subgroup{
+	background:  #efe1b3 url("../img/plus.png") no-repeat left !important;
+	padding-left: 15px !important;
+    cursor:pointer;
+}
+.Colvis {
+        position:absolute;
+        float:right;
+}
+.fc-lunch {
+    /*background-color:#ddd;*/
+    opacity:0.3;
+    font-style:italic;
+    font-size:small;
+    background: repeating-linear-gradient(
+        115deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2) 10px,
+        rgba(0, 0, 0, 0.3) 10px,
+        rgba(0, 0, 0, 0.3) 12px
+      );
+}
+.fc-lunch > div {
+    text-align:center;
+    display:flex;
+}
+.fc-lunch > div > span {
+    font-style:italic;
+    font-size:small;
+    text-align:center;
+    /*padding-top: 10px;
+    padding-bottom: 10px;*/
+    width:100%;
+    line-height:36px;
+}
+
+
+.fc-event {
+    line-height: 2.5!important;
+}
+.fc-timeline-event {
+    padding: 0!important;
+}
+
+
